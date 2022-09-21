@@ -29,7 +29,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/georgeromarrr/rsb-landing-page/blob/1704bef8a3898a5a05cc2bba17393602e38917fd/src/assets/img/homepage.png?raw=true')
+![screenshot](https://raw.githubusercontent.com/georgeromarrr/admin-dashboard-design/main/src/assets/HomePage.png)
 
 - This challange enables me to learn and create some functions for the following:
     - DarkMode
