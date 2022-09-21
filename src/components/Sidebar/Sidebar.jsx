@@ -15,7 +15,7 @@ export const SideNav = [
   { name: "Country", icons: <CountryIcon />, page: "country" },
   { name: "Career", icons: <CareerIcon />, page: "career" },
   { name: "Charts", icons: <ChartsIcon />, page: "charts" },
-  { name: "File", icons: <FileIcon />, page: "charts" },
+  { name: "File", icons: <FileIcon />, page: "file" },
 ];
 
 const Sidebar = () => {
@@ -30,6 +30,9 @@ const Sidebar = () => {
         {SideNav.map((item) => (
           <div
             key={item.name}
+            onClick={() => {
+              redirectTo(`/${item.page}`);
+            }}
             className="flex items-center px-4 p-2 cursor-pointer hover:bg-neutral-200 rounded-lg dark:hover:bg-neutral-700"
           >
             <div className="w-full flex items-start gap-x-4">
