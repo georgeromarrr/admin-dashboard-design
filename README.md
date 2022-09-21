@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+<!-- Please update value in the {}  -->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">RSB Landing Page</h1>
 
-## Available Scripts
+<div align="center">
+   My take of a creating a simple admin dashboard and consume a CSV File of the Forbes Top 10 Celebrities.
+</div>
 
-In the project directory, you can run:
+<div align="center">
+  <h3>
+    <a href="https://rsb-landing-page.vercel.app/">
+      Demo
+    </a>
+  </h3>
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-### `npm test`
+<!-- OVERVIEW -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Overview
 
-### `npm run build`
+![screenshot](https://github.com/georgeromarrr/rsb-landing-page/blob/1704bef8a3898a5a05cc2bba17393602e38917fd/src/assets/img/homepage.png?raw=true')
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- This challange enables me to learn and create some functions for the following:
+    - DarkMode
+    - Convert CSV File to JSON Data
+    - File Upload 
+    - JSON data and array manipulation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-### `npm run eject`
+- [React](https://reactjs.org/)
+- [Tailwind](https://tailwindcss.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This application/site was created as a submission to a tech assessment. The challange was to build an admin dashboard design application and consume the data from the CSV File of the Forbes Top 10 Celebrities.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- The Project has 3 cards showing the Highest Entries based on Celebrities, Country, and Careers
+- The Project has Table showing the CSV file Data 
+- This Project is best to use with Google Chrome Browser
+- This Project is intended as a Single Page Only, but you may able to redirect to the other empty pages
+- You may able to upload the CSV file and based on it the application will convert it to JSON data consume it
 
-## Learn More
+## How To Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Example: -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-### Code Splitting
+```bash
+# Clone this repository
+$ git clone https://github.com/georgeromarrr/rsb-landing-page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Install dependencies
+$ npm install
 
-### Analyzing the Bundle Size
+# Run the app
+$ npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgements
 
-### Making a Progressive Web App
+<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- This Project is only intended as a submission for tech assessment
+- [Node.js](https://nodejs.org/)
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Portfolio [@myportfolio](https://my-portfolio-1bffb.web.app/)
+- GitHub [@georgeromarrr](https://github.com/georgeromarrr)
+- LinkedIn [@Romar George Doinog](https://www.linkedin.com/in/romar-george-doinog-a027901a9)
