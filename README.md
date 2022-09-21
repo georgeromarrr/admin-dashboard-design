@@ -1,17 +1,9 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">RSB Landing Page</h1>
+<h1 align="center">Admin Dashboard Design</h1>
 
 <div align="center">
    My take of a creating a simple admin dashboard and consume a CSV File of the Forbes Top 10 Celebrities.
-</div>
-
-<div align="center">
-  <h3>
-    <a href="https://rsb-landing-page.vercel.app/">
-      Demo
-    </a>
-  </h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
